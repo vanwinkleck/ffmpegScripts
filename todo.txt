@@ -1,0 +1,2 @@
+ * Need to check input/output for file extensions and remove them if they exist. 
+
