@@ -13,4 +13,4 @@ Usage:
   exit 1
 fi
 
-(ffmpeg -nostdin -i $input -q:a 0 -map a $output.mp3)
+(ffmpeg -nostdin -i "$input" -q:a 0 -map a $output.mp3)

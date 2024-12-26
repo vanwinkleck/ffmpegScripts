@@ -13,5 +13,5 @@ Usage:
   exit 1
 fi
 
-(ffmpeg -nostdin -i $input -c:v libvpx-vp9 -b:v 2M -pass 1 -an -f null /dev/null && \
-	ffmpeg -i $input -c:v libvpx-vp9 -b:v 2M -pass 2 -c:a libopus $output.webm)
+(ffmpeg -nostdin -i "$input" -c:v libvpx-vp9 -b:v 2M -pass 1 -an -f null /dev/null && \
+	ffmpeg -i "$input" -c:v libvpx-vp9 -b:v 2M -pass 2 -c:a libopus $output.webm)
