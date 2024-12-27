@@ -1,2 +1,4 @@
  * Need to check input/output for file extensions and remove them if they exist. 
 
+ * Be able to map audio tracks when trimming 
+
