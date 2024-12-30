@@ -4,4 +4,6 @@ Convert.sh will take a .webm, .mkv, etc. file and convert it into a twitter/disc
 
 Trim.sh will allow you to trim a video file from a starting timestamp to an ending timestamp.
 
+Extract.sh will extract the audio from a video file in mp3 format.
+
 Use --help or --h when running these scripts for a usage explanation. 
