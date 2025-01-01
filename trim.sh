@@ -15,5 +15,5 @@ Usage:
   exit 1
 fi
 
-(ffmpeg -nostdin -ss $startTime -to $endTime -i "$input" -c copy $output)
+(ffmpeg -nostdin -i "$input" -ss $startTime -to $endTime -c copy $output)
 

@@ -2,3 +2,6 @@
 
  * Be able to map audio tracks when trimming 
 
+ * Fix trim.sh keeping full video length even after trimming in some cases
+
+
